@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <title>API de Rick and Morty</title>
+</head>
+<body>
+  <header>
+    <nav><a href="https://rickandmortyapi.com/documentation" target="_blank"><img src="assets/logo.png" alt="rick and morty logo" width="100px"></a></nav>
+  </header>
+
+  <main>
+    <section id="main-header">
+      <h1>API de Rick and Morty</h1>
+      <input type="text" placeholder="Pesquise">
+    </section>
+
+    <section id="container-cards">
+    </section>
+
+    <img id="img-portal" src="assets/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="rick and morty portal image" width="300px">
+
+    <section id="container-paginacao">
+    </section>
+  </main>
+
+  <footer>
+    <div id="info-footer">
+      <p id="total-personagens"></p>
+      <p id="total-localizacoes"></p>
+      <p id="total-episodios"></p>
+    </div>
+    <p id="copy">Desenvolvido por: <span><a href="https://www.linkedin.com/in/quym" target="_blank">Anderson Quym</a></span> em 2023</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/config-axios.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
